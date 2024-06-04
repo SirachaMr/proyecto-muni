@@ -4,10 +4,35 @@
   padding: 2rem;
   text-align: center;
 }
-
-.header{
-  margin-top: 80px;
+body{
+  background-color:white;
 }
+.header{
+  margin-top: auto;
+ 
+}
+.imagen{
+margin-top: auto ;
+margin-right: 900px;
+margin-bottom:200px ;
+
+ }
+.Titulo{
+
+  color:black;
+  font-style:oblique;
+  margin-bottom:200px ;
+margin-top:-300px ;
+ }
+ .guia{
+ 
+  margin-top:-100px ;
+  margin-right: 900px;
+  margin-bottom:200px ;
+  flex-direction: row;
+
+ }
+
 
 .logo {
   height: 6em;
