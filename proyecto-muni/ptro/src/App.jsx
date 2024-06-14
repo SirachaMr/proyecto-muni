@@ -8,7 +8,7 @@ function App() {
     <>
 
       <div class="header">
-      
+      <h1>Turnero</h1>
       </div>
       <div id="pasos" className="content">
         <Wizard></Wizard>

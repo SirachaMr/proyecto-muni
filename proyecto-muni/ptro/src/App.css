@@ -18,7 +18,8 @@ body{
 }
 
 .header{
-  margin-top: auto;
+  background-color: brown;
+  margin: 0;
 }
 
 .imagen{
