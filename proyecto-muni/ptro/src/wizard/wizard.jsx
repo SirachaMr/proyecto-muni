@@ -26,6 +26,7 @@ export default function Wizard() {
         }
     }
 
+
     return(
 <>
         <div className="container">
@@ -41,6 +42,7 @@ export default function Wizard() {
             >
                 Anterior
             </button>
+           
             <button 
                 class="siguiente"
                 onClick={handleNext}
@@ -48,6 +50,7 @@ export default function Wizard() {
             >
                 Siguiente
             </button>
+           
         </div>
 </>
     )
