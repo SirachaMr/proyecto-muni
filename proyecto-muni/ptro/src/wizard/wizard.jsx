@@ -7,10 +7,10 @@ import Paso3 from './pasos/Paso3';
 export default function Wizard() {
     const [currStep, setCurrStep] = useState(0);
 
+    
     const handleNext = () => {
-        setCurrStep(next => next + 1);
-    }
-
+          setCurrStep(next => next + 1);
+      };
     const handlePrev = () => {
         setCurrStep( prev => prev - 1);
     }

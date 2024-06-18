@@ -1,9 +1,9 @@
+
 body{
   background-color: rgb(40, 43, 39);
   background-size:cover;
   background-position:auto; 
 }
-
 .header{
   background-color: #D10A11;
   border-bottom:5px solid rgb(67, 167, 224);
@@ -24,12 +24,6 @@ body{
 
 
 
-.imagen{
-margin-top: auto ;
-margin-right: 900px;
-margin-bottom:200px ;
-width: 200px;
- }
 
 .titulo{
  width: 10px;
