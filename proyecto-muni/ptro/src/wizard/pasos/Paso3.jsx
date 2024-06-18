@@ -1,10 +1,5 @@
 import React from 'react'
 
-<<<<<<< HEAD
-export default function Paso3() {
-  return (
-    <div>Paso3</div>
-=======
 
 export default function Paso3() {
   return (
@@ -30,6 +25,5 @@ export default function Paso3() {
 
       
     </div>
->>>>>>> 6657f83807178bda253f07f006a2cd279e5ccf45
   )
 }
