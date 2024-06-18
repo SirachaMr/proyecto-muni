@@ -7,10 +7,6 @@ body{
 .header{
   background-color: #D10A11;
   border-bottom:5px solid rgb(67, 167, 224);
-  background-image: url(http://turnero.tigre.gob.ar/assets/img/logo-prensa.png);
-  background-size:auto;
-  background-repeat: no-repeat;
-  background-position-x:center;
   margin: 0;
  /* position: fixed; /* Fija el elemento en la ventana del navegador */
   top: 0; /* Lo posiciona en la parte superior */
@@ -19,24 +15,35 @@ body{
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
   /* Puedes añadir más estilos según sea necesario */
   text-align:left;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1{
+  padding-right: 20px;
+  margin-top: -50px;
+  object-position: center;
+  color:white;
+  text-decoration: underline;
 }
 
 
 
-
 .imagen{
-margin-top: auto ;
+margin-top: auto;
 margin-right: 900px;
 margin-bottom:200px ;
 width: 200px;
+object-position: left;
+position:relative;
  }
+.puto{
+  margin-left: 100px;
+}
 
-.titulo{
- width: 10px;
- color: rgb(255, 255, 255);
- text-align: start;
- text-decoration:underline ;
- }
+ 
+ 
+ 
 
  #pasos{
   margin: 0 auto;
