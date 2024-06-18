@@ -15,7 +15,8 @@ function App() {
 
       <div id="pasos" className="content">
         <Wizard></Wizard>
-      </div>
+      </div>    
+      <footer><p className="footer">copiright by edgardo martines gomez vilca</p></footer>
     </>
   )
 }
