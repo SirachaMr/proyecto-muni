@@ -27,9 +27,13 @@ function App() {
         <ol>3.completá tu informacion personal y una casila de correo electronico para recibir notificaciones</ol>
       </div>
      
-      <div>
-
-      </div>
+      
+      <fieldset>
+        <label for="dia">turno: <input id="turno" type="text" /></label>
+        <label for="">Enter Your Last Name: <input id="last-name" type="text" /></label>
+       
+      </fieldset>
+  
      
     </>
   )

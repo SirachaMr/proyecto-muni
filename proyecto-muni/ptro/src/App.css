@@ -11,8 +11,15 @@ body{
  
   
 }
-.header{
-  margin-top: auto;
+
+  .header {
+    padding: 5px;
+    height: 220px;
+    background: #D02013;
+    border-bottom: 4px solid rgba(0, 181, 217, 1);
+    border-radius: 50px 50px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    font-size: xx-large;
  
 }
 .imagen{
@@ -23,11 +30,15 @@ margin-bottom:200px ;
  }
 .Titulo{
 
-  color:black;
-  font-style:oblique;
-  margin-bottom:200px ;
-margin-top:-600px ;
- }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   }
+ label {
+  display: block;
+  margin: 0.5rem 0;
+  background-color: red;
+}
  .guia{
  
   margin-top:-300px ;
