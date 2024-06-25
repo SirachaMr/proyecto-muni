@@ -1,25 +1,30 @@
-import './App.css'
-import Wizard from './wizard/wizard'
+import React, { useState } from 'react';
+import './App.css';
+import Wizard from './wizard/wizard';
 
 function App() {
+  const [currentStep, setCurrentStep] = useState(1);
 
+  const handleStepChange = (step) => {
+   if (step == 0){setCurrentStep("Guia");}
+   else{setCurrentStep(step);} 
+  };
 
   return (
     <>
-    
-      <div class="header">
-        <img  src="https://github.com/SirachaMr/proyecto-muni/assets/169813070/0fea0be4-f97e-4eca-81ef-743ce781863a"  />
-     
-        <h1 class="puto">acavaelcositoquenumeralospasos</h1>
+      <div className="header">
+        <img 
+          src="https://github.com/SirachaMr/proyecto-muni/assets/169813070/0fea0be4-f97e-4eca-81ef-743ce781863a" 
+          alt="Logo" 
+        />
+        <div className="pasos"> {currentStep}</div>
       </div>
-
+      
       <div id="pasos" className="content">
-        <Wizard></Wizard>
-      </div>    
-      <footer><p className="footer">copiright by edgardo martines gomez vilca</p></footer>
+        <Wizard onStepChange={handleStepChange}></Wizard>
+      </div>
     </>
-  )
+  );
 }
-//para vincular a un espacio de la pagina se usa la etiqueta <a> con vinculo de id 
 
-export default App
+export default App;

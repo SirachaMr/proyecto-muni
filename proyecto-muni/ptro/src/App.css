@@ -8,11 +8,10 @@ body{
   background-color: #D10A11;
   border-bottom:5px solid rgb(67, 167, 224);
   margin: 0;
- /* position: fixed; /* Fija el elemento en la ventana del navegador */
   top: 0; /* Lo posiciona en la parte superior */
   width: 100%; /* Asegura que ocupe todo el ancho disponible */
   padding: 10px 0; /* Espaciado interno superior e inferior */
-  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  z-index: 1500; /* Asegura que esté por encima de otros elementos */
   /* Puedes añadir más estilos según sea necesario */
   text-align:left;
   display:flex;
@@ -27,6 +26,25 @@ body{
   text-decoration: underline;
 }
 
+
+
+.content {
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.anterior, .siguiente {
+  margin: 0 5px;
+}
 .footer{
   color:white !important;
 }
@@ -39,12 +57,44 @@ width: 200px;
 object-position: left;
 position:relative;
  }
-.cosodelospasos{
-  margin-left: 100px;
-}
+
 
  
- 
+.pasos {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px; 
+  border-radius: 50%;
+  background-color: white;
+  border: 1.5px solid black;
+  text-align: center;
+  margin-right:20px; 
+  
+}
+
+
+.content {
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 50px;
+  text-decoration: double;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.anterior, .siguiente {
+  margin: 0 5px;
+}
  
 
  #pasos{
