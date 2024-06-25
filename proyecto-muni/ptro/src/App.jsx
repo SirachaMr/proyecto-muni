@@ -6,10 +6,11 @@ function App() {
 
   return (
     <>
-
+    
       <div class="header">
-        <img src="" alt="" />
-        <h1 class="titulo">Turnero</h1>
+        <img  src="https://github.com/SirachaMr/proyecto-muni/assets/169813070/0fea0be4-f97e-4eca-81ef-743ce781863a"  />
+     
+        <h1 class="puto">acavaelcositoquenumeralospasos</h1>
       </div>
 
       <div id="pasos" className="content">
