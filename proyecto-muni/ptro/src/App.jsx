@@ -6,7 +6,7 @@ function App() {
   const [currentStep, setCurrentStep] = useState(1);
 
   const handleStepChange = (step) => {
-   if (step == 0){setCurrentStep("Guia");}
+   if (step == 0){setCurrentStep("");}
    else{setCurrentStep(step);} 
   };
 
