@@ -27,7 +27,9 @@ body{
   text-decoration: underline;
 }
 
-
+.footer{
+  color:white !important;
+}
 
 .imagen{
 margin-top: auto;
@@ -37,7 +39,7 @@ width: 200px;
 object-position: left;
 position:relative;
  }
-.puto{
+.cosodelospasos{
   margin-left: 100px;
 }
 
