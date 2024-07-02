@@ -1,29 +1,17 @@
 import React from 'react'
 
-
 export default function Paso3() {
   return (
     <div>
-        <label for="referrer">Escoja un dia disponible.
-          <select id="referrer" name="referrer">
-            <option value="">(seleccione uno)</option>
-            <option value="1">vienes 13/8</option>
-            <option value="2">sabado 14/8</option>
-            <option value="3">freeCodeCamp Forum</option>
-            <option value="4">Other</option>
-          </select>
-        </label>
-        <label for="referrer">Escoja un horario disponible.
-          <select id="referrer" name="referrer">
-            <option value="">(seleccione uno)</option>
-            <option value="1">9am</option>
-            <option value="2">15pm</option>
-            <option value="3">freeCodeCamp Forum</option>
-            <option value="4">Other</option>
-          </select>
-        </label>
-
-      
+      <h1 id="ja">Obra Social</h1>
+    <p id="ja">Por favor complete con la información requerida</p>
+    <form method="post" action=''>
+      <fieldset>
+        <label for="obra-social">Ingrese su obra social: <input id="obrs" name="obrs" type="text" required /></label>
+        <label for="info-de-obrs">Ingrese la información de su obra social: <input id="i-obrs" name="i-obrs" type="text" required /></label>
+      </fieldset>
+    
+      </form> 
     </div>
-  )
+    )
 }

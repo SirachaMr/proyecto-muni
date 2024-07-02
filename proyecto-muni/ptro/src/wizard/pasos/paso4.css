@@ -7,9 +7,8 @@ form {
   }
   
   fieldset {
-    padding: 2rem 1rem;
+    padding: 2rem 0;
     border: 3px solid #ffffff;
-    
   }
   
   fieldset:last-of-type {
@@ -18,8 +17,8 @@ form {
   
   label {
     display: block;
-    margin: 1rem 2rem;
-    color: rgb(255, 255, 255);
+    margin: 0.5rem 0;
+    color: white;
   }
   
   input,
@@ -32,9 +31,8 @@ form {
   
   input, textarea {
     background-color: #ffffff;
-    border: 2px solid red;
+    border: 1px solid red;
     color: #000000;
-    border-radius: 10px;
   }
   
   .inline {
